@@ -1,0 +1,21 @@
+Map from character to field name
+A:	dog
+B:	human
+C:	?
+
+
+Substitution rate (mu): 101.836201
+
+Equilibrium frequencies (pi_i):
+  A: 0.1225
+  B: 0.8775
+
+Symmetrized rates from j->i (W_ij):
+	A	B
+  A	0	4.6525
+  B	4.6525	0
+
+Actual rates from j->i (Q_ij):
+	A	B
+  A	0	0.5698
+  B	4.0828	0
