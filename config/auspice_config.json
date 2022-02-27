@@ -1,0 +1,39 @@
+{
+  "title": "M. bovis evolution",
+  "maintainers": [
+    {"name": "Kristina Ceres", "url": "https://nextstrain.org/community/kmceres/Ecoli"}
+  ],
+  "build_url": "https://nextstrain.org/community/kmceres/Ecoli",
+  "colorings": [
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "tissue",
+      "title": "Tissue",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    }
+  ],
+  "geo_resolutions": [
+    "location",
+    "country"
+  ],
+  "panels": [
+     "tree",
+     "map"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "location",
+    "host"
+  ]
+}
